@@ -40,7 +40,7 @@
 &sys_reset  &none     &none     &none      &none      &none  &none  &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &msc SCRL_LEFT  &msc SCRL_RIGHT
 &none       &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none  &none  &msc SCRL_DOWN  &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT        &kp K_UNDO      &kp K_REDO
 &none       &none     &none     &none      &none      &none                         &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &kp INSERT      &kp PRINTSCREEN
-                                &none      &none      &none                         &mkp LCLK       &mkp RCLK       &mkp MCLK
+                                &none      &none      &mo 1                         &mkp LCLK       &mkp RCLK       &mkp MCLK
             >;
 
             label = "nav";
@@ -51,7 +51,7 @@
 &none  &kp EXCL   &kp AT     &kp HASH  &kp DLLR  &kp PRCNT  &none  &none  &none  &none      &none      &none     &none     &sys_reset
 &none  &kp CARET  &kp AMPS   &kp LBKT  &kp RBKT  &kp EQUAL  &none  &none  &none  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
 &none  &kp STAR   &kp TILDE  &kp LPAR  &kp RPAR  &kp BSLH                 &none  &none      &none      &none     &none     &none
-                             &kp LPAR  &kp RPAR  &kp MINUS                &none  &none      &none
+                             &kp LPAR  &kp RPAR  &kp MINUS                &mo 2  &none      &none
             >;
 
             label = "sym";
@@ -62,7 +62,7 @@
 &none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &none  &none  &kp N6  &kp N7     &kp N8     &kp N9    &kp N0    &sys_reset
 &none  &none   &none   &none   &none   &none   &none  &none  &none   &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
 &none  &none   &none   &none   &none   &none                 &none   &none      &none      &none     &none     &none
-                       &none   &mo 5   &none                 &none   &none      &none
+                       &none   &mo 5   &none                 &none   &mo 3      &none
             >;
 
             label = "num";
@@ -73,7 +73,7 @@
 &sys_reset  &none     &none     &none      &none      &none  &none  &none  &rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none       &none  &none
 &none       &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none  &none  &none  &kp C_PREV       &kp C_VOL_DN     &kp C_VOL_UP     &kp C_NEXT  &none  &none
 &none       &none     &none     &none      &none      &none                &none            &kp C_BRI_DN     &kp C_BRI_UP     &none       &none  &none
-                                &none      &none      &none                &kp C_PP         &mo 5            &kp C_MUTE
+                                &none      &mo 4      &none                &kp C_PP         &mo 5            &kp C_MUTE
             >;
 
             label = "media";
@@ -84,7 +84,7 @@
 &none  &kp F1  &kp F2      &kp F3       &kp F4          &kp F5  &none  &none  &kp F6      &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
 &none  &none   &sys_reset  &bootloader  &studio_unlock  &none   &none  &none  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp F12
 &none  &none   &none       &none        &none           &none                 &none       &none         &none         &none         &none         &none
-                           &none        &none           &none                 &none       &none         &none
+                           &none        &mo 5           &none                 &none       &mo 5         &none
             >;
 
             label = "fun";
