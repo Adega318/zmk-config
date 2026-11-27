@@ -46,10 +46,10 @@
 
         sym {
             bindings = <
-&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)      &kp LS(NUMBER_4)       &kp LS(N5)  &trans  &trans  &trans  &trans     &trans     &trans    &trans    &sys_reset
-&trans  &kp LS(NUMBER_6)  &kp LS(N7)        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL   &trans  &trans  &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
-&trans  &kp LS(N8)        &kp TILDE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSLH                    &trans  &trans     &trans     &trans    &trans    &trans
-                                            &kp LPAR              &kp RPAR               &kp MINUS                   &trans  &trans     &trans
+&trans  &kp EXCL      &kp AT     &kp HASH  &kp DLLR  &kp PRCNT  &trans  &trans  &trans  &trans     &trans     &trans    &trans    &sys_reset
+&trans  &kp CARET     &kp AMPS   &kp LBKT  &kp RBKT  &kp EQUAL  &trans  &trans  &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans
+&trans  &kp ASTERISK  &kp TILDE  &kp LPAR  &kp RPAR  &kp BSLH                   &trans  &trans     &trans     &trans    &trans    &trans
+                                 &kp LPAR  &kp RPAR  &kp MINUS                  &trans  &trans     &trans
             >;
 
             label = "sym";
